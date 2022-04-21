@@ -68,7 +68,7 @@ flutter:
     - assets/images/
     - assets/images/2x/
     - assets/images/3x/
-    - assets/locale/
+    
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 

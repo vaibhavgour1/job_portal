@@ -10,6 +10,33 @@ class LoginScreen extends StatefulWidget {
 class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    double heights = MediaQuery.of(context).size.height;
+    return Scaffold(
+      backgroundColor: Colors.white,
+      body: SingleChildScrollView(
+          child: Container(
+        alignment: Alignment.center,
+        child: Column(
+          children: [
+            SizedBox(
+              height: heights * 0.05,
+            ),
+            Text(
+              "EMPROGO USA",
+              style: TextStyle(height: 20),
+            ),
+            SizedBox(
+              height: heights * 0.05,
+            ),
+            Text("Welcome Back"),
+            SizedBox(
+              height: 10,
+            ),
+            Text("Sign in to continue"),
+            SizedBox()
+          ],
+        ),
+      )),
+    );
   }
 }
